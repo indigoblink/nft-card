@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap");
+
+:root {
+  /* Primary */
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+
+  /* Neutral */
+  --dark-blue-bg: hsl(217, 54%, 11%);
+  --dark-blue-card-bg: hsl(216, 50%, 16%);
+  --dark-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--dark-blue-bg);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+h2:hover {
+  color: var(--cyan) !important;
+}
+
+p {
+  font-size: 18px;
+}
+
+h2,
+p {
+  font-family: "Outfit", sans-serif;
+}
+
+span {
+  color: var(--white);
+  font-weight: 400;
+}
+
+span:hover {
+  color: var(--cyan);
+}
+
+.author-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.author-container img {
+  border: solid var(--white) 1px;
+  border-radius: 50%;
+  width: 35px;
+}
+
+.author-container {
+  border-top: solid var(--dark-blue-line) 1px;
+  margin-top: 36px;
+}
+
+.author-container p {
+  color: var(--soft-blue);
+}
+
+.card-container {
+  position: relative;
+  background-color: var(--dark-blue-card-bg);
+  border-radius: 10px;
+  width: 340px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.extra-container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 300px;
+  padding-top: 30px;
+}
+
+.extra-container p {
+  font-weight: 400;
+}
+
+.hidden-eye-container {
+  visibility: hidden;
+  display: flex;
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  height: 300px;
+  width: 300px;
+  background-color: var(--cyan);
+  opacity: 0.6;
+  border-radius: 10px;
+}
+
+.eye-icon {
+  visibility: hidden;
+  position: absolute;
+  top: 152px;
+  left: 142px;
+  width: 60px;
+}
+
+.img-container {
+  width: 300px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.img-container img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.nft-description {
+  width: 295px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.nft-description p {
+  color: var(--soft-blue);
+}
+
+.nft-title {
+  color: var(--white);
+  width: 295px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+}
+
+.price-container p {
+  color: var(--cyan);
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.time-container {
+  display: flex;
+  width: 122px;
+}
+
+.time-container p {
+  color: var(--soft-blue);
+  font-weight: 600;
+  margin-left: 10px;
+}
